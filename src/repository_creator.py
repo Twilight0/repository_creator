@@ -50,7 +50,7 @@ __author__ = "Chad Parry"
 __contact__ = "github@chad.parry.org"
 __copyright__ = "Copyright 2016-2022 Chad Parry"
 __license__ = "GNU GENERAL PUBLIC LICENSE. Version 2, June 1991"
-__version__ = "2.3.8"
+__version__ = "2.4.0"
 
 
 import argparse
@@ -85,9 +85,9 @@ METADATA_BASENAMES = (
     'LICENSE.txt')
 
 
-# The specification for version numbers is at http://semver.org/.
+# The specification for version numbers is at https://semver.org/.
 # The Kodi documentation at
-# http://kodi.wiki/index.php?title=Addon.xml&oldid=128873#How_versioning_works
+# https://kodi.wiki/index.php?title=Addon.xml&oldid=128873#How_versioning_works
 # adds a twist by recommending a tilde instead of a hyphen.
 VERSION_PATTERN = (r'^(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)'
                    r'(?:[-~]((?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*)'

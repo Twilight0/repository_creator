@@ -1,0 +1,25 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.build_api"
+
+[project]
+name = "Repository Cretor"
+version = "2.4.0"
+authors = [
+  { name="Twilight0", email="twilight0@vivaldi.net" },
+]
+description = "All it does is generate a repository for you for Kodi"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "gitpython>=3.1.46",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Twilight0/repository_creator"
+"Bug Tracker" = "https://github.com/Twilight0/repository_creator/issues"
